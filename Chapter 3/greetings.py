@@ -1,4 +1,6 @@
 names = ['Sebbe', 'Linus', 'Alle', 'Hannes',]
 
-for name in names:
-    print(f"Hello there {name}")
+print(f"Hello there {name[0]}")
+print(f"Hello there {name[1]}")
+print(f"Hello there {name[2]}")
+print(f"Hello there {name[3]}")
