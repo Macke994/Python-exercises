@@ -1,0 +1,7 @@
+number = input("Enter a number,and i will tell you if it is a multiple of 10: ")
+number = int(number)
+
+if number % 10 == 0:
+    print(f"\nThat number is a multiple of 10.")
+else:
+    print(f"\nThat number is not a multiple of 10.")
